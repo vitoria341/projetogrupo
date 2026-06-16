@@ -1,0 +1,175 @@
+﻿@page "/telalogin"
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient( 135deg, #081b4b, #0d2f80, #163f9b );
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .logo {
+        position: absolute;
+        top: 40px;
+        left: 60px;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .card {
+        background: white;
+        width: 420px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: #2957d6;
+        margin: 0 auto 20px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-weight: 600;
+        color: #444;
+    }
+
+    input {
+        padding: 12px;
+        border: none;
+        background: #edf2f7;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+
+    .forgot {
+        text-align: right;
+        text-decoration: none;
+        color: #555;
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 12px;
+        border: none;
+        border-radius: 30px;
+        background: #102b73;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+        button:hover {
+            background: #0a1f57;
+        }
+
+    p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+        p a {
+            text-decoration: none;
+            color: #102b73;
+            font-weight: bold;
+        }
+
+    .link {
+        text-decoration: none;
+        color: #000;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+        .link:hover {
+            color: #1e3a8a;
+        }
+        .esqueci-senha{
+    text-align: right;
+    margin: 10px 0;
+}
+
+.esqueci-senha a{
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+}
+
+.esqueci-senha a:hover{
+    color: #0b2f7a;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprova+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <h1> Aprova+</h1>
+        </div>
+
+        <div class="card">
+            <div class="avatar"></div>
+
+            <form>
+                <label>E-mail</label>
+                <input type="email" placeholder="Digite seu e-mail">
+
+                <label>Senha</label>
+                <input type="password" placeholder="Digite sua senha">
+
+                <label>Confirmar Senha</label>
+                <input type="password" placeholder="Confirme sua senha">
+
+                <div class="esqueci-senha" cla>
+                    <a href="/senhalogin">Esqueci minha senha</a>
+                </div>
+                
+                <button class="btn-entrar">Entrar </button>
+
+                <p>
+                    Não tem uma conta?
+                    <a href="/telacadastro" class="link">Crie uma</a>
+                </p>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
