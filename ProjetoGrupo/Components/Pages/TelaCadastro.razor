@@ -1,7 +1,128 @@
 ﻿@page "/telacadastro"
 
-<h3>TelaCadastro</h3>
-
-@code {
-
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right,#001f5c,#0057d9);
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo h1{
+    color:white;
+    font-size:60px;
+}
+
+.card{
+    width:400px;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,0,0,0.2);
+}
+
+.foto{
+    width:70px;
+    height:70px;
+    background:#1d4ed8;
+    border-radius:50%;
+    margin:0 auto 20px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-top:10px;
+    margin-bottom:5px;
+}
+
+input{
+    padding:12px;
+    border:none;
+    background:#f0f3f7;
+    border-radius:8px;
+}
+
+a{
+    text-align:center;
+    margin:20px 0;
+    color:#333;
+    text-decoration:none;
+}
+
+button{
+    padding:15px;
+    border:none;
+    border-radius:30px;
+    background:#003e9e;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#002d75;
+}
+</style>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprova+</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="logo">
+            <h1> Aprova+</h1>
+        </div>
+
+        <div class="card">
+            <div class="foto"></div>
+
+            <form>
+                <label>Nome Completo</label>
+                <input type="text">
+
+                <label>E-mail</label>
+                <input type="email">
+
+                <label>Senha</label>
+                <input type="password">
+
+                <label>Confirmar Senha</label>
+                <input type="password">
+
+                <button type="submit">Criar Conta</button>
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
+

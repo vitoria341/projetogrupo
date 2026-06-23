@@ -34,10 +34,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZW5oYUxvZ2luLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/2024102020043/Documents/GitHub/projetogrupo/ProjetoGrupo/Components/Pages/TelaCadastro.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWxhQ2FkYXN0cm8ucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/2024102020043/Documents/GitHub/projetogrupo/ProjetoGrupo/Components/Pages/TelaLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWxhTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -53,3 +49,7 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/2024102020043/Documents/GitHub/projetogrupo/ProjetoGrupo/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-bwvd0oy2d2
+
+[C:/Users/2024102020043/Documents/GitHub/projetogrupo/ProjetoGrupo/Components/Pages/TelaCadastro.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUZWxhQ2FkYXN0cm8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-50qgczp7hg
